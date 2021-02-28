@@ -1,0 +1,19 @@
+body {
+	background-position: 0 0;
+	background-size: 100%;
+	background-image: url(fondo.png);
+	/*font-family: Bodoni MT;*/
+	font-family: Cambria;
+	/*font-family: Copperplate Gothic black;*/
+	font-size: 21px;
+	font-weight: 900;
+	text-align: left;
+}
+header{
+	background-color: white;
+	background-repeat: repeat-x;
+}
+h1{
+	text-align: center;
+	color: #FFC300;
+}
