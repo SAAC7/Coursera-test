@@ -2,12 +2,11 @@ body {
 	background-position: 0 0;
 	background-size: 100%;
 	background-image: url(fondo.png);
-	/*font-family: Bodoni MT;*/
-	font-family: Cambria;
-	/*font-family: Copperplate Gothic black;*/
+	font-family: Georgia, serif;
 	font-size: 21px;
 	font-weight: 900;
-	text-align: left;
+	font-style: italic;
+	text-align: justify;
 }
 header p{
 	background-image: url(fondo1.jpg);
@@ -21,11 +20,9 @@ h1{
 	color: #FFC300;
 }
 .bot {
-	background-color: #FFC300;
-	border: 1px solid white;
+	padding: 10px;
 	text-align: center;
 	cursor: pointer;
-	padding: 10px;
 	min-width: 10px;
 }
 .bot a:link, a:visited{
@@ -34,10 +31,14 @@ h1{
 }
 .bot a:hover {
 	background-color:#CEA82D;
+	border: 5px outset #A58726;
 }
 .bot a:active{
 	background-color: #90792E;
+	border:5px inset #8F6C22 ;
 }
 .bot a{
 	padding: 10px;
+	border: 5px outset #E9B200;
+	background-color: #FFC300;
 }
