@@ -9,11 +9,35 @@ body {
 	font-weight: 900;
 	text-align: left;
 }
-header{
-	background-color: white;
+header p{
+	background-image: url(fondo1.jpg);
+	/*background-image: url(fondo2.png);*/
+	/*background-image: url(fondo3.jpg);*/
+	/*background-image: url(fondo4.jpg);*/
 	background-repeat: repeat-x;
 }
 h1{
 	text-align: center;
 	color: #FFC300;
+}
+.bot {
+	background-color: #FFC300;
+	border: 1px solid white;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px;
+	min-width: 10px;
+}
+.bot a:link, a:visited{
+	text-decoration: none;
+	color: black
+}
+.bot a:hover {
+	background-color:#CEA82D;
+}
+.bot a:active{
+	background-color: #90792E;
+}
+.bot a{
+	padding: 10px;
 }
