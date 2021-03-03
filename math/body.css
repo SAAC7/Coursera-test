@@ -1,5 +1,7 @@
+* {
+  box-sizing: border-box;
+}
 body {
-	background-position: 0 0;
 	background-size: 100%;
 	background-image: url(fondo.png);
 	font-family: Georgia, serif;
@@ -23,7 +25,8 @@ h1{
 	padding: 10px;
 	text-align: center;
 	cursor: pointer;
-	min-width: 10px;
+	width: 100%;
+
 }
 .bot a:link, a:visited{
 	text-decoration: none;
@@ -41,4 +44,18 @@ h1{
 	padding: 10px;
 	border: 5px outset #E9B200;
 	background-color: #FFC300;
+	display: inline-grid;
+}
+#icon{
+	color: white;
+	background: black;
+	position: relative;
+	top: 10px;
+	left: 5px;
+	border: grey dashed 7px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	margin-bottom: 20px;
+
 }
