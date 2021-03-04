@@ -10,13 +10,13 @@ body {
 	font-style: italic;
 	text-align: justify;
 }
-header p{
-	background-image: url(fondo1.jpg);
+/*header p{
+	/*background-image: url(fondo1.jpg);*/
 	/*background-image: url(fondo2.png);*/
 	/*background-image: url(fondo3.jpg);*/
 	/*background-image: url(fondo4.jpg);*/
-	background-repeat: repeat-x;
-}
+	/*background-repeat: repeat-x;
+}*/
 h1{
 	text-align: center;
 	color: #FFC300;
