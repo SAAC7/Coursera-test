@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	margin:0px;
+	font-family: Georgia, serif;
 }
 
 @media (min-width: 992px){
@@ -93,46 +93,43 @@
 }
 .row{
 	width: 100%;
-}
-
-.espacio{
-	
-	padding: 10px;
 	
 }
-.title{
-	margin:10px 0px 10px 0px;
-	font-size: 110%;
-	padding: 3px 10px 3px 10px;
-	border: 2px solid black;
-}
-.parrafo{
-	color: black;
-	font-size: 110%;
-	height: 80%;
-	overflow: auto;
-	padding: 5px;
-
-
-}	
 h1{
 	text-align: center;
-	font-family: serif;
 }
-.caja{
-	border: 1px solid black;
-	height: 190px;
+.cuadro{
+	float: left;
+	
+}
+.borde{
+	
 	background-color: grey;
-
+	margin: 10px 10px 10px 10px;
+	border:2px solid black;
+	position: relative;
 }
-.boxtitle{
-	text-align: right;
-	padding-top: 5px;
+.texto{
+	overflow: auto;
+	height: 100px;
+	clear:right;
+	margin: 3px;
+}
+h2{
+
+border: solid black 1px;
+margin: 0px 0px 10px 0px;
+width: 100px;
+text-align: center;
+padding: 3px;
+float:right;
+
 
 }
 #chiken{
 	color: black;
 	background-color: #F08080;
+	
 }
 #sbeef{
 	color: white;
