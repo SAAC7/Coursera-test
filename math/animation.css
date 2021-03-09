@@ -1,0 +1,16 @@
+#cuadrado{
+	width: 200px;
+	height: 200px;
+	background: #ff0000;
+	animation-name: mianima;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	position: relative; 
+	animation-timing-function: linear;
+	animation-iteration-count: infinite; 
+}
+@keyframes mianima {
+	0%{background-color: #ff0000;left: 0;top: 0;}
+	50%{background:blue; left: 250px; top: 250px;}
+	100%{background:yellow;left: 500px; top: 500px;}
+}
